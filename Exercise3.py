@@ -1,15 +1,15 @@
 
-first_name = input('Hello! What is your first name?:').lower()
+first_name = input('Hello! What is your first name?:').lower().strip()
 
-last_name = input('What is your last name?:').lower()
+last_name = input('What is your last name?:').lower().strip()
 
-age = input('How old are you?:').lower()
+age = input('How old are you?:').lower().strip()
 
-age_of_mother = input('How old is your mum?:').lower()
+age_of_mother = input('How old is your mum?:').lower().strip()
 
-skill1 = input('Please give me your first skill:').lower()
-skill2 = input('Please give me your second skill:').lower()
-skill3 = input('Please give me your third skill:').lower()
+skill1 = input('Please give me your first skill:').lower().strip()
+skill2 = input('Please give me your second skill:').lower().strip()
+skill3 = input('Please give me your third skill:').lower().strip()
 
 skills = [skill1,skill2,skill3]
 age_gap = int(age_of_mother) - int(age)

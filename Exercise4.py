@@ -1,9 +1,9 @@
 
 hero = {'Name':'Holder1', 'Speciality':'Something', 'Age':'Holder3', 'Weapon':'holder4'}
-hero['Name'] = input('What do you want the hero to be called?:').lower()
-hero['Speciality'] = input('What is his speciality?:').lower()
-hero['Age'] = input('What is his age?:')
-hero['Weapon'] = input('Finally, what is his weapon?:').lower()
+hero['Name'] = input('What do you want the hero to be called?:').lower().strip()
+hero['Speciality'] = input('What is his speciality?:').lower().strip()
+hero['Age'] = input('What is his age?:').strip()
+hero['Weapon'] = input('Finally, what is his weapon?:').lower().strip()
 
 
 quest= {'Beginning':'holder1', 'Middle':'holder2', 'End':'holder3',  'Hero':hero, 'Villen' : 'placedholder5'}
